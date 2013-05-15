@@ -25,7 +25,6 @@ namespace Ixoxo.BundleCompiler
 				return;
 			}
 
-			//Paths
 			var bundlePath = PathHelper.GetFullPath(args[0]);
 			var path = PathHelper.GetFullPath(bundlePath.Replace(".js.bundle", ".js"));
 			var minifiedPath = PathHelper.GetFullPath(bundlePath.Replace(".js.bundle", ".min.js"));
